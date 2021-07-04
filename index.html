@@ -26,10 +26,10 @@
                 </span>
             </a>
             <!-- toggle button for mobile -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+            <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
                 aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </a>
 
             <!-- navbar links -->
             <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
@@ -44,10 +44,12 @@
                         <a href="#news" class="nav-link">News</a>
                     </li>
                     <li class="nav-item d-md-none">
-                        <a href="#download" class="nav-link">Download now</a>
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#terms">Terms of
+                            Service</a>
                     </li>
                     <li class="nav-item ms-2 d-none d-md-inline">
-                        <a href="#download" class="btn btn-secondary">Download now</a>
+                        <a class="btn btn-outline-secondary" data-bs-toggle="modal"
+                            data-bs-target="#terms">Terms of Service</a>
                     </li>
                 </ul>
             </div>
@@ -197,28 +199,28 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
 
     <!-- news -->
-    <section id="news">
+    <section id="news" class="bg-dark">
         <div class="container-lg">
             <div class="text-center">
-                <h2 class="display-5">Coming Soon!</h2>
+                <h2 class="display-5 text-muted">Coming Soon!</h2>
             </div>
         </div>
 
         <div class="container-lg text-center">
-            <div id="carouselControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div id="carouselControls" class="carousel carousel-light slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <p class="display-5 m-4 p-2 text-muted text-center">Android release in Google Play</p>
+                        <p class="display-6 m-4 p-4 text-light text-center">Android release in Google Play</p>
                     </div>
                     <div class="carousel-item">
-                        <p class="display-5 m-4 p-2 text-muted text-center">iOS release in Apple App Store</p>
+                        <p class="display-6 m-4 p-4 text-light text-center">iOS release in Apple App Store</p>
                     </div>
                     <div class="carousel-item">
-                        <p class="display-5 m-4 p-2 text-muted text-center">More languages support</p>
+                        <p class="display-6 m-4 p-4 text-light text-center">Additional language support</p>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
@@ -235,6 +237,37 @@
         </div>
 
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="terms" tabindex="-1" aria-labelledby="termsTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="termsTitle">Terms of Service</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus est inventore ad illo eos provident nisi, incidunt eligendi mollitia aspernatur dolore illum, nam architecto animi, magnam iure! Suscipit, quae!</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
